@@ -34,10 +34,40 @@ Procedure
 5. Create the fetch sequence.
 6. Define the machine instructions.
 
-Result
-
-To be completed after creating and testing the machine in CPU Sim.
-
 Learning Outcome
 
 To understand the basic architecture of a computer and learn how registers, memory, and microinstructions work together.
+
+Reference Screenshots and Explanation
+
+The following screenshots are taken from the lab manual and are included for reference.
+
+1. Creating a New Machine
+
+"New Machine" (01-new-machine.png)
+
+The File menu provides the option to create a new machine in CPU Sim.
+
+2. Hardware Module Types
+
+"Hardware Module Types" (02-hardware-modules.png)
+
+CPU Sim provides different hardware module types, including Register, RegisterArray, ConditionBit and RAM.
+
+3. Registers of the Basic Computer
+
+"Registers" (03-registers.png)
+
+The Basic Computer contains registers such as AC, DR, AR, PC, IR, E, TMP and S. Each register has a specific width and an initial value.
+
+4. RAM Configuration
+
+"RAM" (04-ram.png)
+
+The memory module M has 4096 cells, with each cell storing 16 bits.
+
+5. Condition Bits
+
+"Condition Bits" (05-condition-bits.png)
+
+The condition bits carry-E and halt-S are used to represent the carry condition and halt condition, respectively.
