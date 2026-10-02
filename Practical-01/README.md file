@@ -44,30 +44,30 @@ The following screenshots are taken from the lab manual and are included for ref
 
 1. Creating a New Machine
 
-"New Machine" (Practical-01/IMG_20261002_104208.jpg)
+"Creating a New Machine" (IMG_20261002_104208.jpg)
 
 The File menu provides the option to create a new machine in CPU Sim.
 
 2. Hardware Module Types
 
-"Hardware Module Types" (02-hardware-modules.png)
+"Hardware Module Types" (IMG_20261002_104233.jpg)
 
 CPU Sim provides different hardware module types, including Register, RegisterArray, ConditionBit and RAM.
 
 3. Registers of the Basic Computer
 
-"Registers" (03-registers.png)
+"Registers" (IMG_20261002_104304.jpg)
 
 The Basic Computer contains registers such as AC, DR, AR, PC, IR, E, TMP and S. Each register has a specific width and an initial value.
 
 4. RAM Configuration
 
-"RAM" (04-ram.png)
+"RAM" (IMG_20261002_104327.jpg)
 
 The memory module M has 4096 cells, with each cell storing 16 bits.
 
 5. Condition Bits
 
-"Condition Bits" (05-condition-bits.png)
+"Condition Bits" (IMG_20261002_104418.jpg)
 
-The condition bits carry-E and halt-S are used to represent the carry condition and halt condition, respectively.
+The condition bits carry-E and halt-S represent the carry condition and halt condition, respectively.
