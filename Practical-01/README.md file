@@ -1,0 +1,43 @@
+Practical 1: Create a Machine
+
+Aim
+
+To create a basic computer machine using CPU Sim and understand its architecture and working.
+
+Software Required
+
+- CPU Sim 4.0.11
+
+Theory
+
+A computer is an electronic device that processes data and performs operations according to instructions.
+
+The basic computer architecture consists of different components such as:
+
+- Registers: Small storage locations inside the CPU that hold data and instructions.
+- Memory (RAM): Stores data and instructions required by the computer.
+- Microinstructions: Low-level instructions that control the internal operations of the CPU.
+- Fetch Routine: A sequence of operations used to fetch an instruction from memory.
+
+Components of the Basic Computer
+
+The basic computer used in this practical follows Mano's Basic Computer architecture.
+
+The machine includes registers, memory, microinstructions, and a fetch sequence.
+
+Procedure
+
+1. Open CPU Sim.
+2. Create a new machine.
+3. Add the required registers and memory.
+4. Configure the microinstructions.
+5. Create the fetch sequence.
+6. Define the machine instructions.
+
+Result
+
+To be completed after creating and testing the machine in CPU Sim.
+
+Learning Outcome
+
+To understand the basic architecture of a computer and learn how registers, memory, and microinstructions work together.
