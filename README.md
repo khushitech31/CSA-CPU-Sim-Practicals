@@ -1,7 +1,7 @@
 # CSA CPU Simulation Practicals
 
 **Course:** Computer System Architecture  
-**Tool:** CPU Sim
+**Tool:** CPU Sim.4.11
 
 ## About
 This repository contains my Computer System
