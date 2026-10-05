@@ -1,73 +1,25 @@
-Practical 1: Create a Machine
+# DSC-02 Computer System Architecture - CPU Sim Practicals
 
-Aim
+**Tool:** CPU Sim 4.0.11 - Mano's Basic Computer (BasicComputer.cpu)
+**Language:** Assembly
 
-To create a basic computer machine using CPU Sim and understand its architecture and working.
+### Practical List
+1. Create a Machine
+2. Create Fetch Routine
+3. ADD Operation
+4. SUBTRACT Operation
+5. Logical Operations (AND, OR, NOT, XOR, NOR, NAND)
+6. Memory-reference (ADD, LDA, STA, BUN, ISZ)
+7. Register-reference (CLA, CMA, CME, HLT)
+8. Register-reference (INC, SPA, SNA, SZE)
+9. Register-reference (CIR, CIL)
+10. Sum until Negative
+11. Sum until Zero
 
-Software Required
+### How to Run
+Open BasicComputer.cpu in CPU Sim -> Open .a program -> Ctrl+2 Assemble & Load -> Ctrl+R Run
 
-- CPU Sim 4.0.11
-
-Theory
-
-A computer is an electronic device that processes data and performs operations according to instructions.
-
-The basic computer architecture consists of different components such as:
-
-- Registers: Small storage locations inside the CPU that hold data and instructions.
-- Memory (RAM): Stores data and instructions required by the computer.
-- Microinstructions: Low-level instructions that control the internal operations of the CPU.
-- Fetch Routine: A sequence of operations used to fetch an instruction from memory.
-
-Components of the Basic Computer
-
-The basic computer used in this practical follows Mano's Basic Computer architecture.
-
-The machine includes registers, memory, microinstructions, and a fetch sequence.
-
-Procedure
-
-1. Open CPU Sim.
-2. Create a new machine.
-3. Add the required registers and memory.
-4. Configure the microinstructions.
-5. Create the fetch sequence.
-6. Define the machine instructions.
-
-Learning Outcome
-
-To understand the basic architecture of a computer and learn how registers, memory, and microinstructions work together.
-
-Reference Screenshots and Explanation
-
-The following screenshots are taken from the lab manual and are included for reference.
-
-1. Creating a New Machine
-
-"Creating a New Machine" (IMG_20261002_104208.jpg)
-
-The File menu provides the option to create a new machine in CPU Sim.
-
-2. Hardware Module Types
-
-"Hardware Module Types" (IMG_20261002_104233.jpg)
-
-CPU Sim provides different hardware module types, including Register, RegisterArray, ConditionBit and RAM.
-
-3. Registers of the Basic Computer
-
-"Registers" (IMG_20261002_104304.jpg)
-
-The Basic Computer contains registers such as AC, DR, AR, PC, IR, E, TMP and S. Each register has a specific width and an initial value.
-
-4. RAM Configuration
-
-"RAM" (IMG_20261002_104327.jpg)
-
-The memory module M has 4096 cells, with each cell storing 16 bits.
-
-5. Condition Bits
-
-"Condition Bits" (IMG_20261002_104418.jpg)
-
-The condition bits carry-E and halt-S represent the carry condition and halt condition, respectively.
+### Files
+- machine/BasicComputer.cpu - Main machine
+- programs/ - All .a assembly files
+- screenshots/ - Output screenshots
